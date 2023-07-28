@@ -48,7 +48,7 @@ button{
   margin-top: 1.7rem;
 }
 
-@media(min-width:780px) and (orientation: landscape) {
+@media(min-width:780px), (orientation: landscape) {
   main{
   display: flex; 
   flex-direction: row;
