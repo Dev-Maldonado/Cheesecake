@@ -1,0 +1,69 @@
+:root{
+  font-size: 62.5%;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body{
+  background: url(https://s3-alpha-sig.figma.com/img/6597/0732/27b775104e016b33024ed903e8b6324f?Expires=1691366400&Signature=CFPQa4B2DFfuGeAWKHgTK3TgScLUDnC-L3M~jAVe~gc0ReSUfWxk7wQMTDgqVSCJimS5INXoY-gqEQA3hMgWm9fwhLZavVbGCEDPZWHOSAO-2K41HTRFSdk0UIq5ET9G5mal5n4gIg~R2IZe9AZyq-4FDndExMCBT4Rvqt7Fqz~XNTeTkZmlAVOdvGstfOtemYWrl82VNgCjtxnOwQPC6Pq4Jb6k4rIM5xosROycQGgXUtPkrp9wecN6sn4MQu~p-Ne~vZdug9gg68MVRjYvhKwfwZhQjj6XYgsgLcMqMO7INRxxXfCgyzNRFaFF4ToA1vcv1VLe~hOHhm8fFh3hnQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray 50% / cover no-repeat;
+}
+main{
+  font-family: 'Source Serif Pro', sans-serif;
+  color: #A54328;
+  font-size: 1.5rem;
+  max-width: 33rem;
+  padding: 5.3rem 3.7rem;
+  margin-inline: auto;
+  box-sizing: content-box;
+
+  display: flex;
+  flex-direction: column;
+
+}
+img{
+  width: 90%;
+  margin-block-end: 4.4rem;
+}
+
+ul, ol{
+  margin-left: 3.5rem;
+}
+
+h1,h2{
+  margin-block: 3.4rem;
+  font-size: 2.9rem;
+}
+ul{
+  padding-bottom: 3.2rem;
+}
+button{
+  border-radius: 5.669px;
+  background: #A54328;
+  width: 9.42rem;
+  height: 3.18rem;
+  color: white;
+  border: none;
+  margin-top: 1.7rem;
+}
+
+@media(min-width:780px) and (orientation: landscape) {
+  main{
+  display: flex; 
+  flex-direction: row;
+  padding: 5.3rem 3.7rem;
+  max-width: 1080px;
+  gap: 10.0rem;
+  font-size: 2.0rem;
+}
+
+main > div{
+  flex: 1;
+  width: 435px;
+}
+
+h1,h2{
+  font-size: 4.0rem;
+}
+}
